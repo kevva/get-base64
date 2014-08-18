@@ -23,6 +23,9 @@
     "regex",
     "string"
   ],
+  "dependencies": {
+    "base64-regex": "^1.0.0"
+  },
   "devDependencies": {
     "ava": "0.0.4"
   }
