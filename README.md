@@ -15,7 +15,7 @@ var getBase64 = require('get-base64');
 var str = 'hello hlelo dW5pY29ybg== yoyo asasyo Ym9hdA==';
 
 getBase64(str);
-// => ['dW5pY29ybg==', 'Ym9hdA==']
+//=> ['dW5pY29ybg==', 'Ym9hdA==']
 ```
 
 ## License

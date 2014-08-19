@@ -4,7 +4,7 @@ var getBase64 = require('./');
 var test = require('ava');
 
 test('get base64 from a string', function (t) {
-    t.plan(1);
+    t.plan(3);
 
     var a = new Buffer('unicorn').toString('base64');
     var b = new Buffer('boat').toString('base64');
