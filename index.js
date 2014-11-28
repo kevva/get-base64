@@ -1,5 +1,6 @@
 'use strict';
 
+var arrayUniq = require('array-uniq');
 var base64Regex = require('base64-regex');
 
 /**
@@ -11,15 +12,12 @@ var base64Regex = require('base64-regex');
 
 module.exports = function (str) {
 	var base64 = str.match(base64Regex());
-	var ret = [];
 
 	if (!base64) {
 		return [];
 	}
 
-	base64.forEach(function (el) {
-		ret.push(el.trim());
-	});
-
-	return ret;
+	return arrayUniq(base64.map(function (el) {
+		return el.trim();
+	}));
 };
