@@ -1,6 +1,6 @@
 {
   "name": "get-base64",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Get base64 from a string",
   "license": "MIT",
   "repository": "kevva/get-base64",
