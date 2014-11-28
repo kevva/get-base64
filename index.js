@@ -10,16 +10,16 @@ var base64Regex = require('base64-regex');
  */
 
 module.exports = function (str) {
-    var base64 = str.match(base64Regex());
-    var ret = [];
+	var base64 = str.match(base64Regex());
+	var ret = [];
 
-    if (!base64) {
-        return [];
-    }
+	if (!base64) {
+		return [];
+	}
 
-    base64.forEach(function (el) {
-        ret.push(el.trim());
-    });
+	base64.forEach(function (el) {
+		ret.push(el.trim());
+	});
 
-    return ret;
+	return ret;
 };
