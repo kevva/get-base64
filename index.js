@@ -3,13 +3,6 @@
 var arrayUniq = require('array-uniq');
 var base64Regex = require('base64-regex');
 
-/**
- * Get base64 from a string
- *
- * @param {String} str
- * @api public
- */
-
 module.exports = function (str) {
 	var base64 = str.match(base64Regex());
 

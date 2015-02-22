@@ -1,4 +1,4 @@
-# get-base64 [![Build Status](https://travis-ci.org/kevva/get-base64.svg?branch=master)](https://travis-ci.org/kevva/get-base64)
+# get-base64 [![Build Status](http://img.shields.io/travis/kevva/get-base64.svg?style=flat)](https://travis-ci.org/kevva/get-base64)
 
 > Get base64 from a string
 
