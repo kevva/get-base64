@@ -2,21 +2,23 @@
 
 > Get base64 from a string
 
+
 ## Install
 
-```sh
+```
 $ npm install --save get-base64
 ```
+
 
 ## Usage
 
 ```js
 var getBase64 = require('get-base64');
-var str = 'foo dW5pY29ybg== bar Ym9hdA==';
 
-getBase64(str);
+getBase64('foo dW5pY29ybg== bar Ym9hdA==');
 //=> ['dW5pY29ybg==', 'Ym9hdA==']
 ```
+
 
 ## License
 
