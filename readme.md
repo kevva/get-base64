@@ -20,6 +20,21 @@ getBase64('foo dW5pY29ybg== bar Ym9hdA==');
 ```
 
 
+## CLI
+
+```
+$ npm install --global get-base64
+```
+
+```
+$ get-urls --help
+
+  Usage
+    $ get-base64 <file>
+    $ cat <file> | get-base64
+```
+
+
 ## License
 
 MIT © [Kevin Mårtensson](http://kevinmartensson.com)
