@@ -11,7 +11,7 @@ var cli = meow({
 		'Usage',
 		'  $ get-base64 <file>',
 		'  $ cat <file> | get-base64'
-	].join('\n')
+	]
 });
 
 function run(data) {
