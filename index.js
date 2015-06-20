@@ -1,5 +1,4 @@
 'use strict';
-
 var arrayUniq = require('array-uniq');
 var base64Regex = require('base64-regex');
 
